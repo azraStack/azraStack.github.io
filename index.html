@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abid Zikry | Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            background: #0f172a;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 700px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h3 {
+            color: #cbd5e1;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background: #7dd3fc;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #0f172a;
+        }
+
+        .about p {
+            max-width: 850px;
+            color: #475569;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            font-weight: bold;
+        }
+
+        .experience-card,
+        .project-card,
+        .education-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .experience-card h3,
+        .project-card h3,
+        .education-card h3 {
+            color: #0284c7;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: #475569;
+        }
+
+        .contact {
+            background: #0f172a;
+            color: white;
+        }
+
+        .contact .section-title {
+            color: white;
+        }
+
+        .contact p {
+            margin-bottom: 12px;
+            color: #cbd5e1;
+        }
+
+        .contact a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #020617;
+            color: #94a3b8;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            section {
+                padding: 50px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h2>Abid Zikry.</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Abid <span>Zikry</span></h1>
+            <h3>Software Developer | IT Enthusiast</h3>
+
+            <p>
+                Information Systems graduate with professional experience
+                in software development, web application maintenance,
+                database management and technical troubleshooting.
+                Passionate about technology and continuous learning.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+            I am an Information Systems graduate from Universiti Teknologi
+            MARA (UiTM) with approximately two years of professional
+            experience in software development.
+
+            My experience mainly focuses on PHP, Laravel, MySQL and
+            JavaScript. I have been involved in developing and maintaining
+            web applications, database management, troubleshooting
+            technical issues and generating system reports.
+
+            I enjoy solving technical problems, learning new technologies
+            and improving my technical capabilities.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">PHP</div>
+            <div class="skill">Laravel</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">jQuery</div>
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">Vue.js</div>
+            <div class="skill">Nuxt.js</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Bitbucket</div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="experience-card">
+            <h3>Junior Programmer</h3>
+            <p class="date">RN Technologies Sdn Bhd | Sep 2024 - Aug 2026</p>
+
+            <ul>
+                <li>Developed and maintained web applications using PHP and Laravel.</li>
+                <li>Managed MySQL databases and performed SQL queries.</li>
+                <li>Developed CRUD functions and dynamic forms.</li>
+                <li>Performed application troubleshooting and bug fixing.</li>
+                <li>Generated reports and PDF documents.</li>
+                <li>Maintained existing systems and improved application functionality.</li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Junior PHP Software Developer</h3>
+            <p class="date">Avenir Technologies Sdn Bhd | Apr 2024 - Aug 2024</p>
+
+            <ul>
+                <li>Assisted in developing PHP-based web applications.</li>
+                <li>Worked with databases and backend functionality.</li>
+                <li>Performed debugging and application maintenance.</li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Backend Developer Intern</h3>
+            <p class="date">Cloud Connect Sdn Bhd | Aug 2023 - Feb 2024</p>
+
+            <ul>
+                <li>Assisted in backend development activities.</li>
+                <li>Worked with application logic and database operations.</li>
+                <li>Gained practical experience in software development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Information Systems (Hons.) Information Systems Engineering</h3>
+            <p>Universiti Teknologi MARA (UiTM) Melaka</p>
+            <p class="date">2020 - 2024 | CGPA: 3.24</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p>Interested in working together? Feel free to contact me.</p>
+
+        <p>Email:
+            <a href="mailto:abidazra00@gmail.com">
+                abidazra00@gmail.com
+            </a>
+        </p>
+
+        <p>Phone: 013-7410773</p>
+
+        <p>LinkedIn:
+            <a href="https://www.linkedin.com/in/abidzikry" target="_blank">
+                linkedin.com/in/abidzikry
+            </a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abid Zikry. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
