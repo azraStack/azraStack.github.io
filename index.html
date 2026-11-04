@@ -1,57 +1,164 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name | Web developer in training</title>
-  <meta name="description" content="Your Name: former QA analyst, now learning to build web applications with PHP and Laravel.">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abid Zikry | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <p class="eyebrow">Hello, I'm</p>
-    <h1>Your Name</h1>
-    <p class="lead">
-      Former QA analyst, now learning to build web applications with PHP and Laravel.
-      I spent five years finding bugs in other people's software. Now I write my own code,
-      test it, and ship it.
-    </p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Projects &mdash; coming soon</h2>
-      <ul class="projects">
-        <li>
-          <h3>job-tracker</h3>
-          <p>A Laravel app for tracking my own job applications, from wishlist to offer.</p>
-          <p class="when">Weeks 3&ndash;4</p>
-        </li>
-        <li>
-          <h3>job-tracker, full-stack</h3>
-          <p>The same app refactored, with a React front-end through Inertia, tests and CI.</p>
-          <p class="when">Weeks 5&ndash;8</p>
-        </li>
-        <li>
-          <h3>Capstone</h3>
-          <p>A product of my own: specified, tested and deployed.</p>
-          <p class="when">Weeks 8&ndash;12</p>
-        </li>
-      </ul>
+    <!-- Navigation -->
+    <header>
+        <h2>Abid Zikry.</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Abid <span>Zikry</span></h1>
+            <h3>Software Developer | IT Enthusiast</h3>
+
+            <p>
+                Information Systems graduate with professional experience
+                in software development, web application maintenance,
+                database management and technical troubleshooting.
+                Passionate about technology and continuous learning.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
 
-    <section>
-      <h2>Contact</h2>
-      <ul class="contact">
-        <li><a href="https://github.com/your-username">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/your-profile/">LinkedIn</a></li>
-        <li><a href="mailto:you@example.com">Email</a></li>
-      </ul>
-    </section>
-  </main>
+    <!-- About -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
 
-  <footer>
-    <p>Written by hand in HTML and CSS. Hosted on GitHub Pages.</p>
-  </footer>
+        <p>
+            I am an Information Systems graduate from Universiti Teknologi
+            MARA (UiTM) with approximately two years of professional
+            experience in software development.
+
+            My experience mainly focuses on PHP, Laravel, MySQL and
+            JavaScript. I have been involved in developing and maintaining
+            web applications, database management, troubleshooting
+            technical issues and generating system reports.
+
+            I enjoy solving technical problems, learning new technologies
+            and improving my technical capabilities.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">PHP</div>
+            <div class="skill">Laravel</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">jQuery</div>
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">Vue.js</div>
+            <div class="skill">Nuxt.js</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Bitbucket</div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2 class="section-title">Work Experience</h2>
+
+        <div class="experience-card">
+            <h3>Junior Programmer</h3>
+            <p class="date">RN Technologies Sdn Bhd | Sep 2024 - Aug 2026</p>
+
+            <ul>
+                <li>Developed and maintained web applications using PHP and Laravel.</li>
+                <li>Managed MySQL databases and performed SQL queries.</li>
+                <li>Developed CRUD functions and dynamic forms.</li>
+                <li>Performed application troubleshooting and bug fixing.</li>
+                <li>Generated reports and PDF documents.</li>
+                <li>Maintained existing systems and improved application functionality.</li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Junior PHP Software Developer</h3>
+            <p class="date">Avenir Technologies Sdn Bhd | Apr 2024 - Aug 2024</p>
+
+            <ul>
+                <li>Assisted in developing PHP-based web applications.</li>
+                <li>Worked with databases and backend functionality.</li>
+                <li>Performed debugging and application maintenance.</li>
+            </ul>
+        </div>
+
+        <div class="experience-card">
+            <h3>Backend Developer Intern</h3>
+            <p class="date">Cloud Connect Sdn Bhd | Aug 2023 - Feb 2024</p>
+
+            <ul>
+                <li>Assisted in backend development activities.</li>
+                <li>Worked with application logic and database operations.</li>
+                <li>Gained practical experience in software development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Information Systems (Hons.) Information Systems Engineering</h3>
+            <p>Universiti Teknologi MARA (UiTM) Melaka</p>
+            <p class="date">2020 - 2024 | CGPA: 3.24</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p>Interested in working together? Feel free to contact me.</p>
+
+        <p>Email:
+            <a href="mailto:abidazra00@gmail.com">
+                abidazra00@gmail.com
+            </a>
+        </p>
+
+        <p>Phone: 013-7410773</p>
+
+        <p>LinkedIn:
+            <a href="https://www.linkedin.com/in/abidzikry" target="_blank">
+                linkedin.com/in/abidzikry
+            </a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abid Zikry. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
