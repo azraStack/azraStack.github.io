@@ -1,0 +1,28 @@
+Personal Information
+Name: ABID ZIKRY BIN ROSLI
+Location: Iskandar Puteri, Johor
+Short Description: Software Developer with professional experience in PHP, Laravel, MySQL/SQL, JavaScript, jQuery, HTML, CSS, and Git, with experience developing and maintaining web-based business and government internal systems. Experienced in developing CRUD modules, database queries, Eloquent relationships, dynamic forms, form validation, data filtering, reporting features, and PDF-based reports. Strong ability to troubleshoot application, backend, database, and frontend issues while working with development teams to deliver solutions based on business and client requirements.
+
+Education
+-Bachelor of InfBachelor Of Information Systems (Hons.) Information Systems Engineering, UiTM Melaka (2020-2024)    CGPA: 3.24
+-Science, Kolej Matrikulasi Johor (2018-2020)   CGPA: 3.75
+-Sijil Peperiksaan Malaysia (SPM), SMK Taman Nusa Jaya (2013-2017)   3A,4B,1C+
+-MUET  Band 3
+
+Technical Skills
+Programming Languages: PHP, JavaScript, Java, C++
+Web Technologies: HTML, CSS, JavaScript, jQuery
+Frameworks: Laravel, Vue.js, Nuxt.js
+Database: MySQL, SQL, Firebase
+Reporting: JasperReports Studio
+Version Control: Git, GitHub, Bitbucket
+Development: REST/API integration, CRUD development, database operations, form validation, dynamic forms, troubleshooting, system maintenance
+
+Languages
+-Malay: Native Speaker
+-English: Fluently
+
+Contact
+Email: abidazra00@gmail.com
+No Phone: 0137410773
+
